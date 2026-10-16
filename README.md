@@ -23,7 +23,7 @@ This tool compiles cleanly down to native machine code on **all macOS architectu
 ## 🛠️ Installation Steps
 
 ### OPTION A: Download the executable and run it
-1. Go to [Releases](/grbltl/uninstall-apps/releases)
+1. Go to [Releases](https://github.com/grbltl/uninstall-apps/releases)
 
 2. Download uninstall_apps
 
