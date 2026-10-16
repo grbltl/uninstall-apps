@@ -1,0 +1,11 @@
+[package]
+name = "uninstall_apps"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+walkdir = "2.5"
+rayon = "1.10"
+dialoguer = "0.11"
+copypasta = "0.10"
+indicatif = "0.17"
