@@ -22,14 +22,14 @@ This tool compiles cleanly down to native machine code on **all macOS architectu
 
 ## 🛠️ Installation Steps
 
-### Download the executable and run it
+### OPTION A: Download the executable and run it
 1. Go to [Releases](./../releases)
 
 2. Download uninstall_apps
 
 3. Run it
 
-### Build from Source
+### OPTION B: Build from Source
 This approach guarantees that the binary is explicitly optimized for your exact processor family (Intel or M-Series Apple Silicon).
 
 1. **Install the Rust toolchain:**
