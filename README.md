@@ -11,12 +11,12 @@ A blazingly fast, multi-threaded command-line tool built in **Rust** to scan, se
 
 ---
 
-## 💻 Compatibility (Intel and Apple Silicon Macs M1, M2...)
+## 💻 Compatibility (Intel and Apple Silicon Macs M1, M2 and more...)
 
 This tool compiles cleanly down to native machine code on **all macOS architectures**:
 
 * **Intel Macs (x86_64):** Runs natively. If a binary is built on an Intel Mac, it runs out-of-the-box on other Intel Macs.
-* **Apple Silicon Macs (M1/M2...):** Runs natively. If you download an Intel binary on an Apple Silicon Mac, it will run automatically using Apple's built-in **Rosetta 2** translation layer. For absolute maximum execution speed on an ARM processor, compile directly on the host Apple Silicon device.
+* **Apple Silicon Macs (M series):** Runs natively. If you download an Intel binary on an Apple Silicon Mac, it will run automatically using Apple's built-in **Rosetta 2** translation layer. For absolute maximum execution speed on an ARM processor, compile directly on the host Apple Silicon device.
 
 ---
 
