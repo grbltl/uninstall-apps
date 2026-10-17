@@ -1,6 +1,9 @@
 # 🚀 Uninstall Apps
 
-A fast macOS command-line tool that searches a directory for a word in file and folder names. Check the matches you want, paste a path with Cmd+V, or delete the checked items together.
+Two Inputs: directory location, such as / and a word to search for in the file/folder name, such as viewsonic
+Output: A list of files/folder inside the directory specified in Input 1 whose name contains Input 2.
+
+A fast macOS command-line tool that searches a directory for a word in file and folder names. Check the matches you want and delete the checked items together.
 
 The search is case-insensitive and looks at the name only. It does not read file contents.
 
@@ -9,7 +12,7 @@ The search is case-insensitive and looks at the name only. It does not read file
 * **Parallel scan:** Uses every CPU core to walk large directory trees.
 * **Live progress:** Shows directories and files scanned while the search runs.
 * **Checkbox list:** Up and Down move the highlight. Space checks or unchecks the highlighted row.
-* **Clipboard:** Checking a file or link copies its parent folder. Checking a folder copies that folder. A later check replaces the copied path. Unchecking clears the clipboard. The list does not print the copied path.
+* **Clipboard:** Checking a file or link copies its parent folder. Checking a folder copies that folder. A later check replaces the copied path. Unchecking clears the clipboard. The copy feature is helpful for manually deleting the stubborn ones.
 * **Bulk delete:** Enter continues with every checked row. Delete removes those files, links, and folders after you type `yes`.
 * **Skips locked folders:** Directories macOS will not let you read are passed over. The tool does not ask for `sudo`.
 
