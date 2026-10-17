@@ -25,12 +25,12 @@ The program compiles to native code for the Mac you build it on.
 ### Option A: Download a release
 
 1. Open [Releases](https://github.com/grbltl/uninstall-apps/releases).
-2. Download `uninstall_apps`.
+2. Download `uninstall-apps`.
 3. Make it executable and run it:
 
 ```bash
-chmod +x uninstall_apps
-./uninstall_apps
+chmod +x uninstall-apps
+./uninstall-apps
 ```
 
 ### Option B: Build from source
@@ -57,12 +57,12 @@ cd uninstall-apps
 cargo build --release
 ```
 
-The binary is `target/release/uninstall_apps`.
+The binary is `target/release/uninstall-apps`.
 
 ### Run it from any folder
 
 ```bash
-sudo cp target/release/uninstall_apps /usr/local/bin/uninstall-apps
+sudo cp target/release/uninstall-apps /usr/local/bin/uninstall-apps
 ```
 
 Then start it with `uninstall-apps`.
@@ -75,7 +75,7 @@ Then start it with `uninstall-apps`.
 uninstall-apps
 ```
 
-From a local build, run `./target/release/uninstall_apps`.
+From a local build, run `./target/release/uninstall-apps`.
 
 2. Enter the directory to search, then the word to find in each name.
 3. In the result list:
