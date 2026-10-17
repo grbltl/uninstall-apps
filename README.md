@@ -1,7 +1,7 @@
 # 🚀 Uninstall Apps
 
-Two Inputs: directory location, such as / and a word to search for in the file/folder name, such as viewsonic
-Output: A list of files/folder inside the directory specified in Input 1 whose name contains Input 2.
+**Two Inputs:** directory location, such as / and a word to search for in the file/folder name, such as viewsonic
+**Output:** A list of files/folder inside the directory specified in Input 1 whose name contains Input 2.
 
 A fast macOS command-line tool that searches a directory for a word in file and folder names. Check the matches you want and delete the checked items together.
 
