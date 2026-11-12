@@ -44,7 +44,7 @@ Building on your own Mac produces a binary for that Mac's processor.
 1. Install Rust:
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://rustup.rs | sh -s -- -y
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
 ```
 
